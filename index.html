@@ -18,10 +18,10 @@
   </head>
   <body>
     <nav class="nav">
+      <a class="nav-item nav-link active" href="#about">About</a>
       <a class="nav-item nav-link active" href="#portfolio">Engineering <span class="sr-only">(current)</span></a>
       <a class="nav-item nav-link active" href="#pm">Product Management</a>
       <a class="nav-item nav-link active" href="#contact" tabindex="1">Contact</a>
-      <a class="nav-item nav-link active" href="#about">About</a>
     </nav>
     <div id="particles-js"></div>
     <header class="header">
@@ -161,7 +161,7 @@
       </div>
     </section>
     <section id="contact">
-      <h1 class="reach-out">Reach Out!</h1>
+      <h1 class="reach-out">Let's Connect!</h1>
       <!-- Github -->
       <a class="footer-links" href="https://github.com/jpettett" target="_blank">
         <i class="fab fa-github-square" style="font-size:50px"></i></a>
@@ -171,9 +171,51 @@
       <!-- Email -->
       <a class="footer-links" href="mailto:joseph.pettett@gmail.com" target="_blank">
         <i class="fas fa-envelope-square" style="font-size:50px"></i></a>
+        
+        <!-- contact form from https://www.freecontactform.com -->
+        <div class="fcf-body">
+        
+          <div id="fcf-form">
+        
+            <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
+        
+              <div class="fcf-form-group">
+                <label for="Name" class="fcf-label">Your name</label>
+                <div class="fcf-input-group">
+                  <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+                </div>
+              </div>
+        
+              <div class="fcf-form-group">
+                <label for="Email" class="fcf-label">Your email address</label>
+                <div class="fcf-input-group">
+                  <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+                </div>
+              </div>
+        
+              <div class="fcf-form-group">
+                <label for="Message" class="fcf-label">Your message</label>
+                <div class="fcf-input-group">
+                  <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+                </div>
+              </div>
+        
+              <div class="fcf-form-group">
+                <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send
+                  Message</button>
+              </div>
+        
+              <div class="fcf-credit" id="fcf-credit">
+              </div>
+        
+            </form>
+          </div>
+        
+        </div>
+        <!-- end contact form -->
   </section>
   <footer>
-    <h6>© Joe Pettett 2019-2020</h6>
+    © Joe Pettett 2019-2020
   </footer>
 
     <!-- scripts -->
