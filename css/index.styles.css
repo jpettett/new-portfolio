@@ -309,6 +309,30 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
 
 
 /* media */
+@media only screen and (max-width: 1000px) {
+  
+  #pm {
+    background-size: 1100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: local;
+    height: 500px;
+  }
+
+  .portfolio-header {
+   text-align: center;
+  }
+
+  .container {
+    display: inline-block;
+  }
+
+  .card {
+    margin: 0 auto;
+  }
+  
+}
+
 @media only screen and (max-width: 850px) {
   
   .portfolio-header {
@@ -324,7 +348,7 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
   }
 
   .pm-ethos {
-    font-size: 40px;;
+    font-size: 40px;
   }
 
   .badge-icons {
@@ -345,6 +369,34 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
     background-position: center;
     background-attachment: local;
     height: 500px;
+  }
+
+}
+
+@media only screen and (max-width: 710px) {
+
+  .pm-images{
+    margin: 10px;
+  }
+
+}
+
+@media only screen and (max-width: 500px) {
+
+   #particles-js {
+    height: 500px;
+  }
+
+  .nav-item {
+    font-size: 10px;
+  }
+
+  .pm-images{
+    margin: 5px;
+  }
+
+  .pm-ethos {
+    font-size: 30px;;
   }
 
 }
