@@ -1,0 +1,184 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+h2 {
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+nav {
+  height: 40px;
+}
+
+.nav-item {
+  color: black;
+}
+
+header {
+  display: inline-block;
+  text-align: center;
+}
+
+.introduction {
+  margin: 100px;
+  color: rgb(228, 217, 134);
+}
+
+.name {
+  color: rgb(235, 45, 191);
+}
+
+.about-me {
+  padding-top: 200px;
+  text-align: center;
+}
+
+.introduction-paragraph {
+  align-items: center;
+  margin-top: 20px;
+  margin-right: 20%;
+  margin-left: 20%;
+  font-family: 'Montserrat', sans-serif;
+  background-color: rgb(255, 255, 255);
+}
+
+.dollar-sign-icon {
+  margin-bottom: 50px;
+}
+
+.badges {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.badge-icons {
+  padding: 25px;
+}
+
+.featured-work {
+  text-align: center;
+}
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(24, 24, 24),
+    rgb(101, 101, 98)
+  );
+  height: 500px;
+}
+
+.pm-images {
+  margin: 50px;
+}
+
+.pm-ethos {
+  margin-top: 150px;
+  font-size: 50px;
+  color: rgb(0, 0, 0);
+  background-color: rgba(248, 248, 255, 0.345);
+}
+
+#pm {
+  background-image: url('../Images/joanna-kosinska-1_CMoFsPfso-unsplash\ \(5\).jpg');
+  color: rgb(0, 0, 0);
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.reach-out {
+  text-align: center;
+  padding-top: 30px;
+}
+
+#contact {
+  text-align: center;
+}
+
+footer {
+  margin-top: 15px;
+  text-align: right;
+  background-color: rgba(102, 131, 162, 0.242);
+  width: 100%;
+  position: absolute; 
+}
+
+.footer-links {
+  padding: 45px;
+  color: rgb(1, 124, 255);
+}
+
+
+
+/* card css */
+.container {
+  margin: 30px 0px 20 0px;
+  margin-top: 30px;
+  display: flex;
+}
+
+.card {
+  width: 25rem;
+  margin: 0px 25px 0px 10px;
+}
+
+
+/* media */
+@media only screen and (max-width: 850px) {
+  
+  .portfolio-header {
+   text-align: center;
+  }
+
+  .container {
+    display: inline-block;
+  }
+
+  .card {
+    margin: 0 auto;
+  }
+
+  .pm-ethos {
+    font-size: 40px;;
+  }
+
+  .badge-icons {
+    padding: 10px;
+  }
+
+  .about-me {
+    padding-top: 150px;
+  }
+
+  #particles-js {
+    height: 400px;
+  }
+
+  #pm {
+    background-size: 800px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: local;
+    height: 500px;
+  }
+
+}

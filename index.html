@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Joseph Pettett</title>
+    <link rel="stylesheet" href="./css/index.styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+  </head>
+  <body>
+    <nav class="nav">
+      <a class="nav-item nav-link active" href="#portfolio">Engineering <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link active" href="#pm">Product Management</a>
+      <a class="nav-item nav-link active" href="#contact" tabindex="1">Contact</a>
+      <a class="nav-item nav-link active" href="#about">About</a>
+    </nav>
+    <div id="particles-js"></div>
+    <header class="header">
+      <div class="introduction">
+        <h2 class="greeting">Hi I'm<span class="name"> Joseph.</span></h2>
+        <h2 class="what-am-i">Entrepreneur. Designer. Developer. </h2>
+      </div>
+      <a role="button" class="btn btn-outline-light" href="#portfolio">
+      View My Work >>>
+      </a>
+    </header>
+    <section id="about">
+      <div class="about-me">
+        <h1>About</h1>
+        <p class="introduction-paragraph">
+          With a combined 10 years of entrepreneurship and management coupled with a strong technical background
+          I am able to meet challenges with curiosity, thoughtfulness and drive.
+          <br>
+          Working as a wildland firefighter taught me to stay calm, think clearly and act decisively. These skills help facilitate cohesive team dynamics and thoughtful decision making under pressure.
+          <br>
+          My time spent as an eCommerce co-founder fostered my entrepreneurial spirit. Passion for intelligent design, creative problem solving and a willingness to learn and adopt new technologies helped keep our company competitive in the market for many years.
+          <br>
+          I am excited to continue utilizing my cumulative experiences to solve more complex problems as a software engineer.
+        </p>
+        <img class="dollar-sign-icon" src="https://img.icons8.com/cotton/64/000000/business-management.png" />
+      </div>
+    </section>
+    <section id="portfolio">
+      <div class="portfolio-header">
+        <h1 class="featured-work">Featured Engineering Work</h1>
+        <!-- Cards start here  -->
+        <div class="container">
+          <!-- Card 1 -->
+          <div class="card mb-2 shadow p-3 mb-5 bg-white rounded">
+            <img
+              class="card-img-top"
+              src="/images/ridgeramble.png"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h4 class="card-title">Ridgeline Ramble</h4>
+              <p class="card-text">
+                Blog/Post style web application built with React, React
+                bootstrap, Python and Django. Features back end user
+                authentication using JSON web token.
+              </p>
+              <a
+                class="btn btn-primary"
+                href="https://ridgeline-ramble-app.herokuapp.com/home"
+                target="_blank"
+                >Application</a
+              >
+              <a
+                class="btn btn-primary"
+                href="https://github.com/jpettett/ridgelineramble-frontend"
+                target="_blank"
+                >Github</a
+              >
+            </div>
+          </div>
+          <!-- Card 2 -->
+          <div class="card mb-2 shadow p-3 mb-5 bg-white rounded">
+            <img
+              class="card-img-top"
+              src="/images/nasa.png"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h4 class="card-title">Nasa APOD</h4>
+              <p class="card-text">
+                Front end centered web applicaiton built using React hooks and
+                NASA's public API.
+              </p>
+
+              <a
+                class="btn btn-primary"
+                href="https://nasaastropod.herokuapp.com/"
+                target="_blank"
+                >Application</a
+              >
+              <a
+                class="github btn btn-primary"
+                href="https://github.com/jpettett/nasa-apod"
+                target="_blank"
+                >Github</a
+              >
+            </div>
+          </div>
+          <!-- Card 3 -->
+          <div class="card mb-2 shadow p-3 mb-5 bg-white rounded">
+            <img
+              class="card-img-top"
+              src="/images/bookbear.png"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h4 class="card-title">Book Bear</h4>
+              <p class="card-text">
+                Full stack MERN application built with React, MongoDB, Express
+                and NodeJS. Developed with testing using Mocha and Chai for the
+                back end.
+              </p>
+              <a
+                class="btn btn-primary"
+                href="http://book-bear.herokuapp.com/books"
+                target="_blank"
+                >Application</a
+              >
+
+              <a
+                class="github btn btn-primary"
+                href="https://github.com/aafmisra/project3-frontend"
+                target="_blank"
+                >Github</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <section class="badges">
+        <img class="badge-icons" src="https://img.icons8.com/color/96/000000/javascript.png" />
+        <img class="badge-icons" src="https://img.icons8.com/color/96/000000/react-native.png" />
+        <img class="badge-icons" src="https://img.icons8.com/color/96/000000/html-5.png" />
+        <img class="badge-icons" src="https://img.icons8.com/color/96/000000/nodejs.png" />
+        <img class="badge-icons" src="https://img.icons8.com/color/96/000000/python.png" />
+        <img class="badge-icons" src="https://img.icons8.com/ios-filled/100/000000/django.png" />
+      </section>
+    </section>
+    <section id="pm">
+      <h1>Product Management</h1>
+      <h1 class="pm-ethos">Research - Design - Build - Refine</h1>
+      <div class="pm-images">
+        <img class="pm-images" src="https://img.icons8.com/ios/50/FFFFFF/combo-chart.png" />
+        <img class="pm-images" src="https://img.icons8.com/ios/50/FFFFFF/design.png" />
+        <img class="pm-images" src="https://img.icons8.com/ios/50/FFFFFF/source-code.png" />
+        <img class="pm-images" src="https://img.icons8.com/ios/50/FFFFFF/inspect-code.png" />
+      </div>
+    </section>
+    <section id="contact">
+      <h1 class="reach-out">Reach Out!</h1>
+      <!-- Github -->
+      <a class="footer-links" href="https://github.com/jpettett" target="_blank">
+        <i class="fab fa-github-square" style="font-size:50px"></i></a>
+      <!-- LinkedIn -->
+      <a class="footer-links" href="https://www.linkedin.com/in/josephpettett/" target="_blank">
+        <i class="fab fa-linkedin" style="font-size:50px"></i></a>
+      <!-- Email -->
+      <a class="footer-links" href="mailto:joseph.pettett@gmail.com" target="_blank">
+        <i class="fas fa-envelope-square" style="font-size:50px"></i></a>
+  </section>
+  <footer>
+    <h6>© Joe Pettett 2019-2020</h6>
+  </footer>
+
+    <!-- scripts -->
+    <script type="text/javascript" src="js/app.js" defer="defer"></script>
+    <script type="text/javascript" src="js/particles.js"></script>
+  </body>
+</html>
